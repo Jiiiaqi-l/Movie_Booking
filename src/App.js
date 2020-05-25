@@ -68,6 +68,16 @@ export default function App(props) {
     setMovie({ name: tmp[0], price: tmp[1].slice().split(" )")[0] });
   };
 
+  const handleSave = () => {
+    if (
+      selectList.length === 0 ||
+      error.filter(item => item === true).length > 0
+    )
+      return;
+    setOccupyList([...occupyList, ...selectList]);
+    setSelectList([]);
+  };
+
   return (
     <div className="app">
       <div>
@@ -125,6 +135,11 @@ export default function App(props) {
         }`}
       >
         Not allowed to select two seats seperately
+      </div>
+      <div>
+        <button className="submit" onClick={handleSave}>
+          Submit
+        </button>
       </div>
     </div>
   );

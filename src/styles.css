@@ -72,9 +72,15 @@ p {
 
 .error {
   color: red;
-  display: block;
+  visibility: visible;
 }
 
 .hide {
-  display: none;
+  visibility: hidden;
 }
+
+.submit {
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+}
+
