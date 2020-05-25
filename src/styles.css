@@ -1,0 +1,80 @@
+body {
+  background-color: #221f33;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.app {
+  text-align: center;
+}
+
+label select {
+  margin-left: 0.5rem;
+}
+
+.one-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+label div {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
+.semi-circle {
+  background-color: #9f9ab9;
+  border: 0.6rem solid #9f9ab9;
+  border-radius: 0.7rem 0.7rem 0 0;
+  margin-right: 0.5rem;
+}
+
+.na {
+  border-color: #221f33bd;
+}
+
+.large-margin-right {
+  margin-right: 1.5rem;
+}
+
+.selected {
+  border-color: #7ce4f5;
+}
+
+.occupied {
+  border-color: #fff;
+}
+
+.label-margin {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.screen {
+  width: 14rem;
+  margin: auto;
+  border-top: 4rem solid #fff;
+  border-left: 0.8rem solid transparent;
+  border-right: 0.8rem solid transparent;
+  margin-bottom: 1rem;
+}
+
+.blue-font {
+  color: #7ce4f5;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+.error {
+  color: red;
+  display: block;
+}
+
+.hide {
+  display: none;
+}
